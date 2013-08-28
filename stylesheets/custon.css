@@ -1,0 +1,13 @@
+/* line 1, ../sass/custon.scss */
+#control {
+  height: 600px;
+  min-width: 960px;
+  background-color: pink;
+}
+
+/* line 7, ../sass/custon.scss */
+.columns {
+  background: pink;
+  height: 100%;
+  overflow: scoll-y;
+}

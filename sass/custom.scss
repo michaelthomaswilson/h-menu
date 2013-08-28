@@ -1,0 +1,33 @@
+#control {
+	height: 600px;
+	min-width: 960px;
+	background-color: pink;
+	overflow: hidden;
+}
+
+.data-list {
+	background: pink;
+	height: 100%;
+	overflow-y: scroll;
+	border-right: 1px solid white;
+	padding: 0;
+
+	li {
+
+		a {
+			display: block;
+			height: 100px;
+			list-style-type: none;
+			background-color:red;
+			border: 1px solid white;
+
+			&:hover {
+				background-color: pink;
+			}
+		}
+	}
+}
+
+.data-display {
+	overflow: hidden;
+}

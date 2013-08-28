@@ -1,0 +1,33 @@
+/* line 1, ../sass/custom.scss */
+#control {
+  height: 600px;
+  min-width: 960px;
+  background-color: pink;
+  overflow: hidden;
+}
+
+/* line 8, ../sass/custom.scss */
+.data-list {
+  background: pink;
+  height: 100%;
+  overflow-y: scroll;
+  border-right: 1px solid white;
+  padding: 0;
+}
+/* line 17, ../sass/custom.scss */
+.data-list li a {
+  display: block;
+  height: 100px;
+  list-style-type: none;
+  background-color: red;
+  border: 1px solid white;
+}
+/* line 24, ../sass/custom.scss */
+.data-list li a:hover {
+  background-color: pink;
+}
+
+/* line 31, ../sass/custom.scss */
+.data-display {
+  overflow: hidden;
+}
