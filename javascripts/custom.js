@@ -1,15 +1,16 @@
 function scrollToTop(el) {
-	var nTop = $(el).offset().top; //$(el).scrollTop();
+	clearColors();
+	setColor(el);
 
-	if (nTop > 0) {
-		$('ul.data-list').scrollTo(nTop, 500);
-	}
+	var nScroll = $(el).offset().top - $('.data-list').offset().top + $('.data-list').scrollTop();
 
-	/*
-	$('ul.data-list').animate({
-		scrollTop: 0
-		}, 1000);
+	$('.data-list').scrollTo(nScroll, 500);
+}
 
-	*/
-	console.log("top = " + nTop);
+function clearColors() {
+	$('li a').css("background-color","red");
+}
+
+function setColor(el) {
+	$(el).css("background-color","blue");
 }
