@@ -11,6 +11,8 @@ function scrollToTop(el) {
 
 	
 	$('.data-list').scrollTo(nScroll, 500);
+
+	showColumn();
 }
 
 function resetElements() {
@@ -22,4 +24,8 @@ function setSelected(el) {
 	console.log('setSelected');
 	$(el).addClass('selected');
 	el.selected = true;
+}
+
+function showColumn() {
+	$('#column2').show();
 }
