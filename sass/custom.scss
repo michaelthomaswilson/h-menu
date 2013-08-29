@@ -20,9 +20,24 @@
 			list-style-type: none;
 			background-color:red;
 			border: 1px solid white;
+			color: white;
 
 			&:hover {
-				background-color: pink;
+				background-color: darkred;
+			}
+
+			p {
+				padding-left: 20px;
+				padding-top: 10px;
+
+				&.title {
+					font-size: 1.3em;
+					margin-bottom: 0
+				}
+
+				&.description {
+					padding-top: 0;
+				}
 			}
 		}
 	}

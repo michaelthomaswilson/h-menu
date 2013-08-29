@@ -7240,13 +7240,28 @@ a.th {
   list-style-type: none;
   background-color: red;
   border: 1px solid white;
+  color: white;
 }
-/* line 24, ../sass/custom.scss */
+/* line 25, ../sass/custom.scss */
 .data-list li a:hover {
-  background-color: pink;
+  background-color: darkred;
+}
+/* line 29, ../sass/custom.scss */
+.data-list li a p {
+  padding-left: 20px;
+  padding-top: 10px;
+}
+/* line 33, ../sass/custom.scss */
+.data-list li a p.title {
+  font-size: 1.3em;
+  margin-bottom: 0;
+}
+/* line 38, ../sass/custom.scss */
+.data-list li a p.description {
+  padding-top: 0;
 }
 
-/* line 31, ../sass/custom.scss */
+/* line 46, ../sass/custom.scss */
 .data-display {
   overflow: hidden;
 }
