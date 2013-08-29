@@ -1,16 +1,25 @@
 function scrollToTop(el) {
-	clearColors();
-	setColor(el);
+
+	if ($(el).hasClass('selected')) {
+		resetElements();
+	} else {
+		resetElements();
+		setSelected(el);
+	}
 
 	var nScroll = $(el).offset().top - $('.data-list').offset().top + $('.data-list').scrollTop();
 
+	
 	$('.data-list').scrollTo(nScroll, 500);
 }
 
-function clearColors() {
-	$('li a').css("background-color","red");
+function resetElements() {
+	$('li a.selected').removeClass('selected');
+
 }
 
-function setColor(el) {
-	$(el).css("background-color","blue");
+function setSelected(el) {
+	console.log('setSelected');
+	$(el).addClass('selected');
+	el.selected = true;
 }
