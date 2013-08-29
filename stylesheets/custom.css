@@ -22,32 +22,33 @@
   background-color: red;
   border: 1px solid white;
   color: white;
+  transition: height 0.2s ease;
 }
-/* line 27, ../sass/custom.scss */
+/* line 29, ../sass/custom.scss */
 .data-list li a:hover {
   background-color: darkred;
 }
-/* line 31, ../sass/custom.scss */
+/* line 33, ../sass/custom.scss */
 .data-list li a.selected {
   background-color: darkred;
   height: 600px;
 }
-/* line 36, ../sass/custom.scss */
+/* line 38, ../sass/custom.scss */
 .data-list li a p {
   padding-left: 20px;
   padding-top: 10px;
 }
-/* line 40, ../sass/custom.scss */
+/* line 42, ../sass/custom.scss */
 .data-list li a p.title {
   font-size: 1.3em;
   margin-bottom: 0;
 }
-/* line 45, ../sass/custom.scss */
+/* line 47, ../sass/custom.scss */
 .data-list li a p.description {
   padding-top: 0;
 }
 
-/* line 53, ../sass/custom.scss */
+/* line 55, ../sass/custom.scss */
 .data-display {
   overflow: hidden;
 }

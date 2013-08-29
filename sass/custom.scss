@@ -24,6 +24,8 @@ $height: 600px;
 			border: 1px solid white;
 			color: white;
 
+			transition: height 0.2s ease;
+
 			&:hover {
 				background-color: darkred;
 			}
