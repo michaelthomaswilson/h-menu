@@ -132,6 +132,14 @@
 	},
 	"file_history":
 	[
+		"/Users/mwilson/Repo/h-menu/sass/custom.scss",
+		"/Users/mwilson/Repo/h-menu/index.html",
+		"/Users/mwilson/Repo/h-menu/javascripts/custom.js",
+		"/Applications/MAMP/htdocs/manager/includes/config.inc.php",
+		"/Users/mwilson/Repo/h-menu/javascripts/jquery.scrollTo-1.4.3.1.js",
+		"/Users/mwilson/Repo/h-menu/sass/app.scss",
+		"/Users/mwilson/Repo/h-menu/sass/custon.scss",
+		"/Users/mwilson/Repo/h-menu/index-old.html",
 		"/Users/mwilson/Desktop/ht.access",
 		"/Users/mwilson/Desktop/DynamicsDB_7-14-2013.sql",
 		"/Users/mwilson/Repo/mysecondapp/app/controllers/users_controller.rb",
@@ -460,6 +468,6 @@
 	"show_open_files": true,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 416.0,
+	"side_bar_width": 275.0,
 	"status_bar_visible": true
 }
