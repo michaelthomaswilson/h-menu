@@ -1,22 +1,19 @@
 $height: 600px;
 $colwidth: 30%;
 
-#column1, #column2 {
+
+#columnTwo, #columnThree, #columnFour { display: none;}
+
+#holder {
 	height: $height;
-	min-width: 960px;
-	background-color: pink;
-	overflow: hidden;
-}
-
-#column2 {
-
+	background-color: AliceBlue;
 }
 
 .data-list {
 	background: pink;
 	height: $height;
 	overflow-y: scroll;
-	border-right: 1px solid white;
+	//border-right: 1px solid white;
 	padding: 0;
 
 	li {
@@ -51,13 +48,11 @@ $colwidth: 30%;
 					font-size: 1.0em;
 					line-height: 0.9em;
 					margin-bottom: 0;
-					//background-color: pink;
 				}
 
 				&.description {
 					font-size: 0.9em;
 					color: LightGray;
-					//padding-top: 5px;
 				}
 			}
 		}
