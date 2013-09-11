@@ -1,6 +1,8 @@
 $height: 600px;
 $colwidth: 30%;
 
+$gray: DimGray;
+
 
 #columnTwo, #columnThree, #columnFour { display: none;}
 
@@ -13,7 +15,6 @@ $colwidth: 30%;
 	background: pink;
 	height: $height;
 	overflow-y: scroll;
-	//border-right: 1px solid white;
 	padding: 0;
 
 	li {
@@ -22,7 +23,7 @@ $colwidth: 30%;
 			display: block;
 			height: 70px;
 			list-style-type: none;
-			background-color:red;
+			background: $gray url(/images/arrow.svg) no-repeat 98% center;
 			border: 1px solid white;
 			color: white;
 

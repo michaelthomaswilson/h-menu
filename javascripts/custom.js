@@ -8,8 +8,6 @@ function scrollToTop(el) {
 	}
 
 	var nScroll = $(el).offset().top - $('.data-list').offset().top + $('.data-list').scrollTop();
-
-	
 	$('.data-list').scrollTo(nScroll, 500);
 
 	showColumn();
