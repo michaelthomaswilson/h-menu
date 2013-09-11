@@ -1,3 +1,56 @@
+function init() {
+	$('li a').click(function(){
+		processSelections($(this));
+	});
+
+	$('#columnOne > li a').click(function(){
+		initNextColumn($(this));
+	});
+}
+
+function processSelections(el) {
+	clearAllSelections();
+	setAsSelected(el);
+}
+
+function clearAllSelections() {
+	$('li a.selected').removeClass('selected');
+}
+
+function setAsSelected(el) {
+	$(el).addClass('selected');
+
+
+}
+
+function initNextColumn(el) {
+	var id = $(el).closest("ul").attr("id");
+
+	switch(id)
+	{
+	case 'columnOne':
+	  showColumnTwo()
+	  break;
+	case 'columnTwo':
+	  showColumnThree
+	  break;
+	default:
+		console.log('Something is fucked');
+	}
+}
+
+function showColumnTwo() {
+	$('#columnTwo').toggle();
+}
+
+
+
+
+
+
+
+
+
 function scrollToTop(el) {
 
 	if ($(el).hasClass('selected')) {
@@ -13,11 +66,6 @@ function scrollToTop(el) {
 	showColumn();
 }
 
-function resetElements() {
-	$('li a.selected').removeClass('selected');
-
-}
-
 function setSelected(el) {
 	console.log('setSelected');
 	$(el).addClass('selected');
@@ -25,5 +73,5 @@ function setSelected(el) {
 }
 
 function showColumn() {
-	$('#column2').show();
+	$('#columnTwo').toggle();
 }
