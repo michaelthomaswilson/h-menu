@@ -9,12 +9,13 @@ function init() {
 }
 
 function processSelections(el) {
-	clearAllSelections();
+	clearAllSelections(el);
 	setAsSelected(el);
 }
 
-function clearAllSelections() {
-	$('li a.selected').removeClass('selected');
+function clearAllSelections(el) {
+	var parent = getParent(el);
+	$(parent + 'li a.selected').removeClass('selected');
 }
 
 function setAsSelected(el) {
@@ -24,7 +25,7 @@ function setAsSelected(el) {
 }
 
 function initNextColumn(el) {
-	var id = $(el).closest("ul").attr("id");
+	var id = getParent(el);
 
 	switch(id)
 	{
@@ -41,6 +42,11 @@ function initNextColumn(el) {
 
 function showColumnTwo() {
 	$('#columnTwo').toggle();
+}
+
+function getParent(el) {
+	var parent = $(el).closest("ul").attr("id");
+	return parent;
 }
 
 
