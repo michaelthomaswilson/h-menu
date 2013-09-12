@@ -29,6 +29,8 @@ function addColumn(el) {
 	var el = '#' + getParent(el);
 	$(el).after(columnHTML);
 	$('#new').attr("id",'column' + aColumns.length);
+
+	scrollToEnd();
 }
 
 function resetColumns(el) {
@@ -112,12 +114,11 @@ function numberOfColumns() {
 	return aColumns.length;
 }
 
+// scroll functions
 
-
-
-
-
-
+function scrollToEnd() {
+	$('#holder').scrollTo('max', 500);
+}
 
 
 function scrollToTop(el) {
