@@ -15,17 +15,16 @@ function initNextColumn(el) {
 	console.log('columnNumber: ' + getColumnNumber(el));
 	var id = getColumnNumber(el);
 	var parent = '#' + getParent(el);
-	console.log(parent);
 
-	//if (aColumns.length == 1) {
-		addColumn(parent);
-	//}
+	addColumn(parent);
 }
 
 function addColumn(el) {
-	$(el).after(columnHTML);
-	$('#new').attr("id",'column' + aColumns.length);
-	aColumns.push(aColumns.length);
+	if (aColumns.length < maxDepth) {
+		$(el).after(columnHTML);
+		$('#new').attr("id",'column' + aColumns.length);
+		aColumns.push(aColumns.length);
+	}
 }
 
 // Elements
@@ -37,11 +36,18 @@ function processSelections(el) {
 		clearAllSelections(el);
 		setAsSelected(el);
 	}
+
+	resetParent(el);
 }
 
 function clearAllSelections(el) {
 	var parent = '#' + getParent(el) + ' li a.selected';
 	$(parent).removeClass('selected open');
+}
+
+function resetParent(el) {
+	var id = getColumnNumber(el);
+	console.log('resetParent: ' + id);
 }
 
 function setAsSelected(el) {
