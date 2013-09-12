@@ -1,4 +1,9 @@
+var aColumns = [];
+
 function init() {
+
+	initColumnArray();
+
 	$('li a').click(function(){
 		processSelections($(this));
 	});
@@ -7,6 +12,20 @@ function init() {
 		initNextColumn($(this));
 	});
 }
+
+// Columns
+
+function initColumnArray() {
+	aColumns.push($('#column1'));
+	console.log("array: " + aColumns.length);
+}
+
+function initNextColumn(el) {
+	var id = getParent(el);
+
+}
+
+// Elements
 
 function processSelections(el) {
 	clearAllSelections(el);
@@ -20,29 +39,9 @@ function clearAllSelections(el) {
 
 function setAsSelected(el) {
 	$(el).addClass('selected');
-
-
 }
 
-function initNextColumn(el) {
-	var id = getParent(el);
-
-	switch(id)
-	{
-	case 'columnOne':
-	  showColumnTwo()
-	  break;
-	case 'columnTwo':
-	  showColumnThree
-	  break;
-	default:
-		console.log('Something is fucked');
-	}
-}
-
-function showColumnTwo() {
-	$('#columnTwo').toggle();
-}
+// Helpers
 
 function getParent(el) {
 	var parent = $(el).closest("ul").attr("id");
@@ -70,14 +69,4 @@ function scrollToTop(el) {
 	$('.data-list').scrollTo(nScroll, 500);
 
 	showColumn();
-}
-
-function setSelected(el) {
-	console.log('setSelected');
-	$(el).addClass('selected');
-	el.selected = true;
-}
-
-function showColumn() {
-	$('#columnTwo').toggle();
 }

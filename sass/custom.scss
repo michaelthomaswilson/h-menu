@@ -1,3 +1,5 @@
+// Variables
+
 $height: 600px;
 $colwidth: 30%;
 
@@ -8,13 +10,14 @@ $gray: DimGray;
 $lightgray: LightGray;
 $darkgray: #333;
 
-
-#columnTwo, #columnThree, #columnFour { display: none;}
+// IDs
 
 #holder {
 	height: $height;
 	background-color: AliceBlue;
 }
+
+// Classes
 
 .data-list {
 	background: pink;

@@ -1,22 +1,17 @@
-/* line 12, ../sass/custom.scss */
-#columnTwo, #columnThree, #columnFour {
-  display: none;
-}
-
-/* line 14, ../sass/custom.scss */
+/* line 15, ../sass/custom.scss */
 #holder {
   height: 600px;
   background-color: AliceBlue;
 }
 
-/* line 19, ../sass/custom.scss */
+/* line 22, ../sass/custom.scss */
 .data-list {
   background: pink;
   height: 600px;
   overflow-y: scroll;
   padding: 0;
 }
-/* line 27, ../sass/custom.scss */
+/* line 30, ../sass/custom.scss */
 .data-list li a {
   display: block;
   height: 70px;
@@ -29,24 +24,24 @@
   transition: height 0.2s ease;
   transition: background-color 400ms ease;
 }
-/* line 40, ../sass/custom.scss */
+/* line 43, ../sass/custom.scss */
 .data-list li a:hover {
   background-color: #333333;
 }
-/* line 44, ../sass/custom.scss */
+/* line 47, ../sass/custom.scss */
 .data-list li a.selected {
   background-color: darkred;
 }
-/* line 49, ../sass/custom.scss */
+/* line 52, ../sass/custom.scss */
 .data-list li a.open {
   height: 400px;
 }
-/* line 53, ../sass/custom.scss */
+/* line 56, ../sass/custom.scss */
 .data-list li a p {
   padding-left: 20px;
   padding-top: 3px;
 }
-/* line 57, ../sass/custom.scss */
+/* line 60, ../sass/custom.scss */
 .data-list li a p.title {
   display: block;
   width: 90%;
@@ -55,13 +50,13 @@
   line-height: 0.9em;
   margin-bottom: 0;
 }
-/* line 66, ../sass/custom.scss */
+/* line 69, ../sass/custom.scss */
 .data-list li a p.description {
   font-size: 0.8em;
   color: LightGray;
 }
 
-/* line 75, ../sass/custom.scss */
+/* line 78, ../sass/custom.scss */
 .data-display {
   overflow: hidden;
 }
