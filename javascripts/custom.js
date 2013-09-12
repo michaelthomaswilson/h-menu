@@ -14,8 +14,8 @@ function processSelections(el) {
 }
 
 function clearAllSelections(el) {
-	var parent = getParent(el);
-	$(parent + 'li a.selected').removeClass('selected');
+	var parent = '#' + getParent(el) + ' li a.selected';
+	$(parent).removeClass('selected');
 }
 
 function setAsSelected(el) {
