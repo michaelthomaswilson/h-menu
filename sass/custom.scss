@@ -19,6 +19,10 @@ $darkgray: #333;
 
 // Classes
 
+[class*="column"]:last-child {
+	float: left !important;
+}
+
 .data-list {
 	background: pink;
 	height: $height;
