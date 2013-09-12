@@ -12,9 +12,21 @@ $darkgray: #333;
 
 // IDs
 
+#frame {
+	height: $height;
+}
+
 #holder {
 	height: $height;
 	background-color: AliceBlue;
+	width: 100%;
+	overflow-x:scroll;
+	overflow-y: hidden;
+	white-space: nowrap;
+
+	ul {
+		display: inline-block !important;
+	}
 }
 
 // Classes

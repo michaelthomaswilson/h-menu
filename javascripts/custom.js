@@ -1,5 +1,6 @@
 var aColumns = [0];
-var columnHTML = '<ul id="new" class="large-4 columns data-list"> <li> <a> <p class="title">How long of a title can this hold, you ask?</p> <p class="description">Secondary, single-line info here.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> </a> </li> </ul> ';
+var maxDepth = 4;
+var columnHTML = '<ul id="new" class="large-4 data-list"> <li> <a> <p class="title">How long of a title can this hold, you ask?</p> <p class="description">Secondary, single-line info here.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> </a> </li> </ul> ';
 function init() {
 
 	$("body").on("click", "li a", function(){
@@ -16,9 +17,9 @@ function initNextColumn(el) {
 	var parent = '#' + getParent(el);
 	console.log(parent);
 
-	if (aColumns.length == 1) {
+	//if (aColumns.length == 1) {
 		addColumn(parent);
-	}
+	//}
 }
 
 function addColumn(el) {
