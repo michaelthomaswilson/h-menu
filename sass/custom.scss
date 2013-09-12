@@ -37,8 +37,7 @@ $darkgray: #333;
 			border-top: 0;
 			color: white;
 
-			transition: height 0.2s ease;
-			transition: background-color 400ms ease;
+			transition: height 400ms ease, background-color 400ms ease;
 
 			&:hover {
 				background-color: $darkgray;
