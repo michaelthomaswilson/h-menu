@@ -5,26 +5,46 @@ function init() {
 
 	$("body").on("click", "li a", function(){
 		processSelections($(this));
-		initNextColumn($(this));
+		processColumns($(this));
 	});
 }
 
 // Columns
 
-function initNextColumn(el) {
-	console.log('columnNumber: ' + getColumnNumber(el));
-	var id = getColumnNumber(el);
-	var parent = '#' + getParent(el);
+function processColumns(el) {
+	var id = Number(getColumnNumber(el)) + 1;
 
-	addColumn(parent);
+	// do i need to remove columns due to a selection in an preceeding column?
+	if (numberOfColumns() > 2) {
+		resetColumns(el);
+	}
+
+	// should i add another column?
+	if (numberOfColumns() < maxDepth && numberOfColumns() <= id) {
+		addColumn(el);
+	}
 }
 
 function addColumn(el) {
-	if (aColumns.length < maxDepth) {
-		$(el).after(columnHTML);
-		$('#new').attr("id",'column' + aColumns.length);
-		aColumns.push(aColumns.length);
+	var el = '#' + getParent(el);
+	$(el).after(columnHTML);
+	$('#new').attr("id",'column' + aColumns.length);
+}
+
+function resetColumns(el) {
+	var id = Number(getColumnNumber(el));
+	console.log('id clicked: ' + id);
+
+
+	if (id < numberOfColumns()) {
+		id = id + 2;
+		for(var i=id; i < numberOfColumns(); i++) {
+			var element = 'ul#column' + i; 
+			console.log('removing element: ' + element);
+			$(element).remove();
+		}
 	}
+
 }
 
 // Elements
@@ -36,8 +56,8 @@ function processSelections(el) {
 		clearAllSelections(el);
 		setAsSelected(el);
 	}
-
 	resetParent(el);
+	resetChildren(el);
 }
 
 function clearAllSelections(el) {
@@ -45,9 +65,29 @@ function clearAllSelections(el) {
 	$(parent).removeClass('selected open');
 }
 
+function resetChildren(el) {
+	var id = getColumnNumber(el);
+	//console.log('id clicked: ' + id);
+
+
+	if (id < numberOfColumns()) {
+		id++;
+		for(var i=id; i < numberOfColumns(); i++) {
+			var element = '#column' + i + ' li a.selected'; 
+			//console.log('reset element: ' + element);
+			$(element).removeClass('open selected');
+		}
+	}
+}
+
 function resetParent(el) {
 	var id = getColumnNumber(el);
-	console.log('resetParent: ' + id);
+
+	if (id > 0) {
+		id--;
+		var element = '#column' + id + ' li a.selected';
+		$(element).removeClass('open');
+	}
 }
 
 function setAsSelected(el) {
@@ -65,6 +105,11 @@ function getColumnNumber(el) {
 function getParent(el) {
 	var parent = $(el).closest("ul").attr("id");
 	return parent;
+}
+
+function numberOfColumns() {
+	aColumns = $('ul.data-list');
+	return aColumns.length;
 }
 
 
