@@ -7,10 +7,18 @@ var columnHTML = '<ul id="new" class="large-4 data-list"> <li> <a> <p class="tit
 		processColumns($(this));
 		reveal();
 	});
+
+	$("body").on("click", "ul#flat li a", function(){
+		showHierarchy();
+	});
 }
 
 function reveal() {
 	$(".contextual").fadeIn(300);
+}
+
+function showHierarchy() {
+	console.log('hierarchy');
 }
 
 // Columns

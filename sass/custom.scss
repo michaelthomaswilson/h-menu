@@ -23,6 +23,16 @@ $darkgray: #333;
 	height: $height;
 }
 
+#hierarchy {
+	padding: 10px;
+
+	ul {
+		margin: 10px;
+		margin-left: 50px;
+		list-style-type:square;
+	}
+}
+
 #holder {
 	height: $height;
 	background-color: AliceBlue;
