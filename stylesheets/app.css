@@ -7245,18 +7245,25 @@ a.th {
 }
 
 /* line 41, ../sass/custom.scss */
+.button {
+  background: dimgrey;
+  border: 1px solid lightgrey;
+  font-weight: 300 !important;
+}
+
+/* line 47, ../sass/custom.scss */
 .contextual {
   display: none;
 }
 
-/* line 45, ../sass/custom.scss */
+/* line 51, ../sass/custom.scss */
 .data-list {
   background: pink;
   height: 600px;
   overflow-y: scroll;
   padding: 0;
 }
-/* line 53, ../sass/custom.scss */
+/* line 59, ../sass/custom.scss */
 .data-list li a {
   display: block;
   height: 70px;
@@ -7269,24 +7276,24 @@ a.th {
   overflow: hidden;
   transition: height 400ms ease, background-color 400ms ease;
 }
-/* line 66, ../sass/custom.scss */
+/* line 72, ../sass/custom.scss */
 .data-list li a:hover {
   background-color: #333333;
 }
-/* line 70, ../sass/custom.scss */
+/* line 76, ../sass/custom.scss */
 .data-list li a.selected {
   background-color: darkred;
 }
-/* line 74, ../sass/custom.scss */
+/* line 80, ../sass/custom.scss */
 .data-list li a.open {
   height: 350px;
 }
-/* line 78, ../sass/custom.scss */
+/* line 84, ../sass/custom.scss */
 .data-list li a p {
   padding-left: 20px;
   padding-top: 3px;
 }
-/* line 82, ../sass/custom.scss */
+/* line 88, ../sass/custom.scss */
 .data-list li a p.title {
   display: block;
   width: 90%;
@@ -7295,12 +7302,12 @@ a.th {
   line-height: 0.9em;
   margin-bottom: 0;
 }
-/* line 91, ../sass/custom.scss */
+/* line 97, ../sass/custom.scss */
 .data-list li a p.description {
   font-size: 0.8em;
   color: LightGray;
 }
-/* line 96, ../sass/custom.scss */
+/* line 102, ../sass/custom.scss */
 .data-list li a p.info {
   font-size: 0.80em;
   margin-top: 30px;
@@ -7309,7 +7316,7 @@ a.th {
   white-space: normal;
 }
 
-/* line 108, ../sass/custom.scss */
+/* line 114, ../sass/custom.scss */
 .data-display {
   overflow: hidden;
 }

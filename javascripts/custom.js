@@ -5,7 +5,7 @@ var columnHTML = '<ul id="new" class="large-4 data-list"> <li> <a> <p class="tit
 	$("body").on("click", "li a", function(){
 		processSelections($(this));
 		processColumns($(this));
-		//reveal();
+		reveal();
 	});
 }
 

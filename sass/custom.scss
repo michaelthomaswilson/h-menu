@@ -38,6 +38,12 @@ $darkgray: #333;
 
 // Classes
 
+.button {
+	background: $gray;
+	border: 1px solid $lightgray;
+	font-weight: 300 !important;
+}
+
 .contextual {
 	display: none;
 }
