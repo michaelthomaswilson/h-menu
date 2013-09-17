@@ -47,26 +47,27 @@
   border: 1px solid lightgrey;
   border-top: 0;
   color: white;
+  overflow: hidden;
   transition: height 400ms ease, background-color 400ms ease;
 }
-/* line 65, ../sass/custom.scss */
+/* line 66, ../sass/custom.scss */
 .data-list li a:hover {
   background-color: #333333;
 }
-/* line 69, ../sass/custom.scss */
+/* line 70, ../sass/custom.scss */
 .data-list li a.selected {
   background-color: darkred;
 }
-/* line 73, ../sass/custom.scss */
+/* line 74, ../sass/custom.scss */
 .data-list li a.open {
-  height: 400px;
+  height: 350px;
 }
-/* line 77, ../sass/custom.scss */
+/* line 78, ../sass/custom.scss */
 .data-list li a p {
   padding-left: 20px;
   padding-top: 3px;
 }
-/* line 81, ../sass/custom.scss */
+/* line 82, ../sass/custom.scss */
 .data-list li a p.title {
   display: block;
   width: 90%;
@@ -75,13 +76,21 @@
   line-height: 0.9em;
   margin-bottom: 0;
 }
-/* line 90, ../sass/custom.scss */
+/* line 91, ../sass/custom.scss */
 .data-list li a p.description {
   font-size: 0.8em;
   color: LightGray;
 }
+/* line 96, ../sass/custom.scss */
+.data-list li a p.info {
+  font-size: 0.80em;
+  margin-top: 30px;
+  width: 90%;
+  color: LightGray;
+  white-space: normal;
+}
 
-/* line 99, ../sass/custom.scss */
+/* line 108, ../sass/custom.scss */
 .data-display {
   overflow: hidden;
 }
