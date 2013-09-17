@@ -46,7 +46,6 @@ function resetColumns(el) {
 			$(element).remove();
 		}
 	}
-
 }
 
 // Elements

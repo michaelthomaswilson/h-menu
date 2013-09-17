@@ -12,6 +12,11 @@ $darkgray: #333;
 
 // IDs
 
+#controls {
+	height: 45px;
+	border: 1px solid $lightgray;
+}
+
 #frame {
 	height: $height;
 }
