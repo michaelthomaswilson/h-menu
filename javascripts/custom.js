@@ -6,7 +6,12 @@ function init() {
 	$("body").on("click", "li a", function(){
 		processSelections($(this));
 		processColumns($(this));
+		reveal();
 	});
+}
+
+function reveal() {
+	$(".contextual").fadeIn(300);
 }
 
 // Columns

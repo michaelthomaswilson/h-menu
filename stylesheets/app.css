@@ -7221,14 +7221,16 @@ a.th {
 #controls {
   height: 45px;
   border: 1px solid lightgrey;
+  background: #fbfbfb;
+  margin-bottom: 20px;
 }
 
-/* line 20, ../sass/custom.scss */
+/* line 22, ../sass/custom.scss */
 #frame {
   height: 600px;
 }
 
-/* line 24, ../sass/custom.scss */
+/* line 26, ../sass/custom.scss */
 #holder {
   height: 600px;
   background-color: AliceBlue;
@@ -7237,19 +7239,24 @@ a.th {
   overflow-y: hidden;
   white-space: nowrap;
 }
-/* line 32, ../sass/custom.scss */
+/* line 34, ../sass/custom.scss */
 #holder ul {
   display: inline-block !important;
 }
 
-/* line 39, ../sass/custom.scss */
+/* line 41, ../sass/custom.scss */
+.contextual {
+  display: none;
+}
+
+/* line 45, ../sass/custom.scss */
 .data-list {
   background: pink;
   height: 600px;
   overflow-y: scroll;
   padding: 0;
 }
-/* line 47, ../sass/custom.scss */
+/* line 53, ../sass/custom.scss */
 .data-list li a {
   display: block;
   height: 70px;
@@ -7261,24 +7268,24 @@ a.th {
   color: white;
   transition: height 400ms ease, background-color 400ms ease;
 }
-/* line 59, ../sass/custom.scss */
+/* line 65, ../sass/custom.scss */
 .data-list li a:hover {
   background-color: #333333;
 }
-/* line 63, ../sass/custom.scss */
+/* line 69, ../sass/custom.scss */
 .data-list li a.selected {
   background-color: darkred;
 }
-/* line 67, ../sass/custom.scss */
+/* line 73, ../sass/custom.scss */
 .data-list li a.open {
   height: 400px;
 }
-/* line 71, ../sass/custom.scss */
+/* line 77, ../sass/custom.scss */
 .data-list li a p {
   padding-left: 20px;
   padding-top: 3px;
 }
-/* line 75, ../sass/custom.scss */
+/* line 81, ../sass/custom.scss */
 .data-list li a p.title {
   display: block;
   width: 90%;
@@ -7287,13 +7294,13 @@ a.th {
   line-height: 0.9em;
   margin-bottom: 0;
 }
-/* line 84, ../sass/custom.scss */
+/* line 90, ../sass/custom.scss */
 .data-list li a p.description {
   font-size: 0.8em;
   color: LightGray;
 }
 
-/* line 93, ../sass/custom.scss */
+/* line 99, ../sass/custom.scss */
 .data-display {
   overflow: hidden;
 }
