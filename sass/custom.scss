@@ -25,11 +25,12 @@ $darkgray: #333;
 
 #hierarchy {
 	padding: 10px;
+	display: none;
 
 	ul {
 		margin: 10px;
-		margin-left: 50px;
-		list-style-type:square;
+		margin-left: 25px;
+		list-style-type: none;
 	}
 }
 
