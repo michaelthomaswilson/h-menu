@@ -19,6 +19,8 @@ $darkgray: #333;
 	margin-bottom: 20px;
 }
 
+#flatWrapper {display: none;}
+
 #frame {
 	height: $height;
 }
@@ -85,7 +87,7 @@ $darkgray: #333;
 			}
 
 			&.selected {
-				background-color: darkred;
+				background-color: #333;
 			}
 
 			&.open {
