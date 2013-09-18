@@ -121,6 +121,16 @@ $darkgray: #333;
 				}
 			}
 		}
+
+		&.loadmore {
+			a {
+			background-image: none;
+			text-align: center;
+
+				p {margin-top: 20px}
+			}
+		}
+
 	}
 }
 

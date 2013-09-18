@@ -7332,8 +7332,17 @@ a.th {
   color: LightGray;
   white-space: normal;
 }
+/* line 126, ../sass/custom.scss */
+.data-list li.loadmore a {
+  background-image: none;
+  text-align: center;
+}
+/* line 130, ../sass/custom.scss */
+.data-list li.loadmore a p {
+  margin-top: 20px;
+}
 
-/* line 127, ../sass/custom.scss */
+/* line 137, ../sass/custom.scss */
 .data-display {
   overflow: hidden;
 }
