@@ -45,7 +45,7 @@
 							<a href="#" class="button">Move</a>
 						</ul>
 						<ul class="button-group push-1">
-							<li><a href="#" class="button">Deactivate</a></li>
+							<li><a href="#" data-reveal-id="deactivateModal" class="button">Deactivate</a></li>
 						</ul>
 					</div>
 				</div>
@@ -337,6 +337,27 @@
         		<div class="row">
 					<label>Copy Area</label>
         			<textarea>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at ipsum eu orci hendrerit iaculis vel non quam. Aenean sed vestibulum magna, eu dictum turpis. Ut eget mi ante. Aliquam eu ante a leo vestibulum accumsan a sit amet lectus. Fusce vel porttitor arcu, sed mattis dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan facilisis vulputate. Cras accumsan laoreet arcu, sit amet posuere erat fringilla in. Etiam quis rhoncus tellus, eget auctor erat.</textarea>
+        		</div>
+			</fieldset>
+		</form>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+
+	<div id="deactivateModal" class="reveal-modal small">
+		<h2>Add new item</h2>
+		<form>
+			<fieldset>
+				<div class="row">
+					<div class="large-10 large-centered columns">
+						Are you sure you want to deactivate this?
+					</div>
+        		</div>
+        		<div class="row">&nbsp;</div>
+        		<div class="row">
+        			<div class="large-6 large-centered columns">
+	        			<a href="#" class="small button closeModal">Yes</a>
+	        			<a href="#" class="small button disabled closeModal">No</a>
+        			</div>
         		</div>
 			</fieldset>
 		</form>

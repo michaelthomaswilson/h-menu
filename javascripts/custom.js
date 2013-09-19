@@ -22,6 +22,10 @@ function init() {
 	$('#restore').click(function(){
 		toggleModes();
 	});
+
+	$('.closeModal').click(function(){
+		$('#deactivateModal').foundation('reveal', 'close');
+	});
 }
 
 function toggleModes() {
