@@ -82,8 +82,13 @@ $darkgray: #333;
 
 			transition: height 400ms ease, background-color 400ms ease;
 
+
 			&:hover {
 				background-color: $darkgray;
+			}
+
+			&.copyHover:hover {
+				background-color: #700000;
 			}
 
 			&.selected {
@@ -92,6 +97,10 @@ $darkgray: #333;
 
 			&.open {
 				height: $openSize;
+			}
+
+			&.copyState {
+				background-color: #700000 !important;
 			}
 
 			p {

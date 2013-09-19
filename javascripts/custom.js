@@ -14,6 +14,21 @@ function init() {
 		showHierarchy();
 	});
 
+	$("#copyButton, #moveButton").click(function(){
+
+		console.log('copy this!');
+		// get currently selected element
+		// attach .copyState style to it'
+
+		$(".open").addClass('copyState');
+
+		// add copy hover state to all elements
+
+		$("ul.multi li a").not(".copyState").addClass("copyHover");
+
+		// register click event for all elements to remove copy state
+	});
+
 	$("#search").click(function(){
 		toggleModes();
 		hideControls();
@@ -104,6 +119,7 @@ function processSelections(el) {
 	}
 	resetParent(el);
 	resetChildren(el);
+	resetState();
 }
 
 function clearAllSelections(el) {
@@ -134,6 +150,11 @@ function resetParent(el) {
 		var element = '#column' + id + ' li a.selected';
 		$(element).removeClass('open');
 	}
+}
+
+function resetState() {
+	$(".copyState").removeClass('copyState');
+	$(".copyHover").removeClass('copyHover');
 }
 
 function setAsSelected(el) {
