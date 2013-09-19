@@ -9,6 +9,7 @@ $openSize: 350px;
 $gray: DimGray;
 $lightgray: LightGray;
 $darkgray: #333;
+$darkred: #700000;
 
 // IDs
 
@@ -88,7 +89,7 @@ $darkgray: #333;
 			}
 
 			&.copyHover:hover {
-				background-color: #700000;
+				background-color: $darkred;
 			}
 
 			&.selected {
@@ -100,7 +101,7 @@ $darkgray: #333;
 			}
 
 			&.copyState {
-				background-color: #700000 !important;
+				background-color: $darkred;
 			}
 
 			p {
