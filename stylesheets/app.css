@@ -7250,7 +7250,7 @@ a.th {
 /* line 39, ../sass/custom.scss */
 #holder {
   height: 600px;
-  background-color: AliceBlue;
+  border: 1px solid lightgrey;
   width: 100%;
   overflow-x: scroll;
   overflow-y: hidden;

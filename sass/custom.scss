@@ -38,7 +38,7 @@ $darkgray: #333;
 
 #holder {
 	height: $height;
-	background-color: AliceBlue;
+	border: 1px solid $lightgray;
 	width: 100%;
 	overflow-x:scroll;
 	overflow-y: hidden;
