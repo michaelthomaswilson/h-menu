@@ -15,7 +15,6 @@ function init() {
 	});
 
 	$("#search").click(function(){
-		console.log('search');
 		toggleModes();
 		hideControls();
 	});

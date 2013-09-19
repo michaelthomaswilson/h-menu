@@ -36,8 +36,8 @@
 				<div id="controls">
 					<div class="button-bar contextual">
 						<ul class="button-group">
-							<li><a href="#" data-reveal-id="myModal" class="button medium">Add</a></li>
-							<li><a href="#" class="button">Edit</a></li>
+							<li><a href="#" data-reveal-id="addModal" class="button medium">Add</a></li>
+							<li><a href="#" data-reveal-id="editModal" class="button">Edit</a></li>
 						</ul>
 						<ul class="button-group">
 							<a href="#" class="button">Copy</a>
@@ -301,17 +301,42 @@
     });
   </script>
 
-	<div id="myModal" class="reveal-modal medium">
+	<div id="addModal" class="reveal-modal medium">
 		<h2>Add new item</h2>
 		<form>
 			<fieldset>
 				<div class="row">
-					<label>Element name</label>
+					<label>Name</label>
         			<input type="text">
         		</div>
         		<div class="row">
-					<label>Element information</label>
+					<label>Description</label>
+        			<input type="text">
+        		</div>
+        		<div class="row">
+					<label>Copy Area</label>
         			<textarea></textarea>
+        		</div>
+			</fieldset>
+		</form>
+		<a class="close-reveal-modal">&#215;</a>
+	</div>
+
+	<div id="editModal" class="reveal-modal medium">
+		<h2>Edit item</h2>
+		<form>
+			<fieldset>
+				<div class="row">
+					<label>Name</label>
+        			<input type="text" value="Menu Item">
+        		</div>
+        		<div class="row">
+					<label>Description</label>
+        			<input type="text" value="Description goes here.">
+        		</div>
+        		<div class="row">
+					<label>Copy Area</label>
+        			<textarea>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at ipsum eu orci hendrerit iaculis vel non quam. Aenean sed vestibulum magna, eu dictum turpis. Ut eget mi ante. Aliquam eu ante a leo vestibulum accumsan a sit amet lectus. Fusce vel porttitor arcu, sed mattis dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan facilisis vulputate. Cras accumsan laoreet arcu, sit amet posuere erat fringilla in. Etiam quis rhoncus tellus, eget auctor erat.</textarea>
         		</div>
 			</fieldset>
 		</form>
