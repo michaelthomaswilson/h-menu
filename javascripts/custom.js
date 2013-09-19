@@ -28,6 +28,7 @@ function init() {
 function toggleModes() {
 	$('#flatWrapper').toggle();
 	$('#columnWrapper').toggle();
+	$('.paginationArea').toggle();
 }
 
 function revealControls() {
