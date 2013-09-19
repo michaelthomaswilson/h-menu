@@ -56,6 +56,8 @@ function setCopyMode() {
 		},400);
 
 		setTimeout(removeSuccess, 2000);
+
+		that.off("click");
 	});
 
 	// register click event for all elements to remove copy state
