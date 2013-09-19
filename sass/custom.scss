@@ -17,11 +17,17 @@ $selected: #e5fbff;
 
 // IDs
 
+#columnWrapper {
+	background: -webkit-linear-gradient(left, $superlightgray 319px, white 10px);
+	background-size: 329px;
+}
+
 #controls {
 	height: 45px;
-	border: 1px solid $lightgray;
+	border: 1px solid $superlightgray;
 	background: rgb(251,251,251);
 	margin-bottom: 20px;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 #flatWrapper {display: none;}
