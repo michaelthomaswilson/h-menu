@@ -7263,12 +7263,33 @@ a.th {
 
 /* line 59, ../sass/custom.scss */
 .button {
-  background: dimgrey;
+  background: #f2f2f2;
   border: 1px solid lightgrey;
   font-weight: 300 !important;
+  color: dimgrey;
+}
+/* line 65, ../sass/custom.scss */
+.button:hover {
+  background: #e5fbff;
+  color: dimgrey;
 }
 
-/* line 65, ../sass/custom.scss */
+/* line 72, ../sass/custom.scss */
+.cancel {
+  display: block;
+  border: 0;
+  border-radius: 5px;
+  background: #333;
+  color: white;
+  text-align: center;
+  width: 50%;
+  height: auto;
+  margin: 10px auto;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+/* line 86, ../sass/custom.scss */
 .copyNotice {
   position: absolute;
   top: 50%;
@@ -7285,12 +7306,12 @@ a.th {
   z-index: 999;
   -webkit-animation: copy 400ms;
 }
-/* line 82, ../sass/custom.scss */
+/* line 103, ../sass/custom.scss */
 .copyNotice h1 {
   margin-bottom: 0;
   color: white;
 }
-/* line 87, ../sass/custom.scss */
+/* line 108, ../sass/custom.scss */
 .copyNotice p {
   color: white;
   font-size: 0.9em;
@@ -7298,23 +7319,23 @@ a.th {
 }
 
 @-webkit-keyframes copy {
-  /* line 95, ../sass/custom.scss */
+  /* line 116, ../sass/custom.scss */
   from {
     opacity: 0;
   }
 
-  /* line 96, ../sass/custom.scss */
+  /* line 117, ../sass/custom.scss */
   to {
     opacity: 1;
   }
 }
 
-/* line 99, ../sass/custom.scss */
+/* line 120, ../sass/custom.scss */
 .contextual {
   display: none;
 }
 
-/* line 103, ../sass/custom.scss */
+/* line 124, ../sass/custom.scss */
 .data-list {
   height: 600px;
   overflow-y: scroll;
@@ -7322,11 +7343,11 @@ a.th {
   margin-right: 1%;
   width: 32%;
 }
-/* line 110, ../sass/custom.scss */
+/* line 131, ../sass/custom.scss */
 .data-list li {
   position: relative;
 }
-/* line 114, ../sass/custom.scss */
+/* line 135, ../sass/custom.scss */
 .data-list li a {
   display: block;
   height: 70px;
@@ -7339,36 +7360,36 @@ a.th {
   overflow: hidden;
   transition: height 400ms ease, background-color 400ms ease, opacity 400ms ease;
 }
-/* line 128, ../sass/custom.scss */
+/* line 148, ../sass/custom.scss */
 .data-list li a:hover {
   background-color: #f2f2f2;
 }
-/* line 132, ../sass/custom.scss */
+/* line 152, ../sass/custom.scss */
 .data-list li a.copyHover:hover {
-  background-color: #999999;
+  background-color: lightgrey;
 }
-/* line 136, ../sass/custom.scss */
+/* line 156, ../sass/custom.scss */
 .data-list li a.selected {
   background-color: #e5fbff;
 }
-/* line 140, ../sass/custom.scss */
+/* line 160, ../sass/custom.scss */
 .data-list li a.open {
   height: 350px;
 }
-/* line 144, ../sass/custom.scss */
+/* line 164, ../sass/custom.scss */
 .data-list li a.copyState {
   background-color: lightgrey;
 }
-/* line 147, ../sass/custom.scss */
+/* line 167, ../sass/custom.scss */
 .data-list li a.copyState p {
   opacity: 0.5;
 }
-/* line 152, ../sass/custom.scss */
+/* line 172, ../sass/custom.scss */
 .data-list li a p {
   padding-left: 20px;
   padding-top: 3px;
 }
-/* line 156, ../sass/custom.scss */
+/* line 176, ../sass/custom.scss */
 .data-list li a p.title {
   display: block;
   width: 90%;
@@ -7377,13 +7398,13 @@ a.th {
   line-height: 0.9em;
   margin-bottom: 0;
 }
-/* line 165, ../sass/custom.scss */
+/* line 185, ../sass/custom.scss */
 .data-list li a p.description {
   font-size: 0.8em;
   color: #999999;
   padding-top: 0;
 }
-/* line 171, ../sass/custom.scss */
+/* line 191, ../sass/custom.scss */
 .data-list li a p.info {
   font-size: 0.80em;
   margin-top: 30px;
@@ -7391,28 +7412,28 @@ a.th {
   color: #999999;
   white-space: normal;
 }
-/* line 182, ../sass/custom.scss */
+/* line 202, ../sass/custom.scss */
 .data-list li.loadmore a {
   background-image: none;
   text-align: center;
 }
-/* line 186, ../sass/custom.scss */
+/* line 206, ../sass/custom.scss */
 .data-list li.loadmore a p {
   margin-top: 20px;
 }
 
-/* line 193, ../sass/custom.scss */
+/* line 213, ../sass/custom.scss */
 .data-display {
   overflow: hidden;
 }
 
-/* line 197, ../sass/custom.scss */
+/* line 217, ../sass/custom.scss */
 .paginationArea {
   display: none;
   margin-top: 30px;
   text-align: center;
 }
-/* line 202, ../sass/custom.scss */
+/* line 222, ../sass/custom.scss */
 .paginationArea ul {
   margin: 0 auto;
   width: 30%;

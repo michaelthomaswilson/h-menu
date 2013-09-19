@@ -1,8 +1,8 @@
 var aColumns = [0];
 var maxDepth = 4;
 var columnHTML = '<ul id="new" class="large-4 data-list multi"> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at ipsum eu orci hendrerit iaculis vel non quam. Aenean sed vestibulum magna, eu dictum turpis. Ut eget mi ante. Aliquam eu ante a leo vestibulum accumsan a sit amet lectus. Fusce vel porttitor arcu, sed mattis dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan facilisis vulputate. Cras accumsan laoreet arcu, sit amet posuere erat fringilla in. Etiam quis rhoncus tellus, eget auctor erat.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at ipsum eu orci hendrerit iaculis vel non quam. Aenean sed vestibulum magna, eu dictum turpis. Ut eget mi ante. Aliquam eu ante a leo vestibulum accumsan a sit amet lectus. Fusce vel porttitor arcu, sed mattis dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan facilisis vulputate. Cras accumsan laoreet arcu, sit amet posuere erat fringilla in. Etiam quis rhoncus tellus, eget auctor erat.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at ipsum eu orci hendrerit iaculis vel non quam. Aenean sed vestibulum magna, eu dictum turpis. Ut eget mi ante. Aliquam eu ante a leo vestibulum accumsan a sit amet lectus. Fusce vel porttitor arcu, sed mattis dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan facilisis vulputate. Cras accumsan laoreet arcu, sit amet posuere erat fringilla in. Etiam quis rhoncus tellus, eget auctor erat.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at ipsum eu orci hendrerit iaculis vel non quam. Aenean sed vestibulum magna, eu dictum turpis. Ut eget mi ante. Aliquam eu ante a leo vestibulum accumsan a sit amet lectus. Fusce vel porttitor arcu, sed mattis dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan facilisis vulputate. Cras accumsan laoreet arcu, sit amet posuere erat fringilla in. Etiam quis rhoncus tellus, eget auctor erat.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at ipsum eu orci hendrerit iaculis vel non quam. Aenean sed vestibulum magna, eu dictum turpis. Ut eget mi ante. Aliquam eu ante a leo vestibulum accumsan a sit amet lectus. Fusce vel porttitor arcu, sed mattis dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan facilisis vulputate. Cras accumsan laoreet arcu, sit amet posuere erat fringilla in. Etiam quis rhoncus tellus, eget auctor erat.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at ipsum eu orci hendrerit iaculis vel non quam. Aenean sed vestibulum magna, eu dictum turpis. Ut eget mi ante. Aliquam eu ante a leo vestibulum accumsan a sit amet lectus. Fusce vel porttitor arcu, sed mattis dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan facilisis vulputate. Cras accumsan laoreet arcu, sit amet posuere erat fringilla in. Etiam quis rhoncus tellus, eget auctor erat.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at ipsum eu orci hendrerit iaculis vel non quam. Aenean sed vestibulum magna, eu dictum turpis. Ut eget mi ante. Aliquam eu ante a leo vestibulum accumsan a sit amet lectus. Fusce vel porttitor arcu, sed mattis dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan facilisis vulputate. Cras accumsan laoreet arcu, sit amet posuere erat fringilla in. Etiam quis rhoncus tellus, eget auctor erat.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at ipsum eu orci hendrerit iaculis vel non quam. Aenean sed vestibulum magna, eu dictum turpis. Ut eget mi ante. Aliquam eu ante a leo vestibulum accumsan a sit amet lectus. Fusce vel porttitor arcu, sed mattis dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan facilisis vulputate. Cras accumsan laoreet arcu, sit amet posuere erat fringilla in. Etiam quis rhoncus tellus, eget auctor erat.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at ipsum eu orci hendrerit iaculis vel non quam. Aenean sed vestibulum magna, eu dictum turpis. Ut eget mi ante. Aliquam eu ante a leo vestibulum accumsan a sit amet lectus. Fusce vel porttitor arcu, sed mattis dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan facilisis vulputate. Cras accumsan laoreet arcu, sit amet posuere erat fringilla in. Etiam quis rhoncus tellus, eget auctor erat.</p> </a> </li> <li> <a> <p class="title">Menu item</p> <p class="description">Description goes here.</p> <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus at ipsum eu orci hendrerit iaculis vel non quam. Aenean sed vestibulum magna, eu dictum turpis. Ut eget mi ante. Aliquam eu ante a leo vestibulum accumsan a sit amet lectus. Fusce vel porttitor arcu, sed mattis dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce accumsan facilisis vulputate. Cras accumsan laoreet arcu, sit amet posuere erat fringilla in. Etiam quis rhoncus tellus, eget auctor erat.</p> </a> </li> </ul>'; 
-var copyNotice = '<div class="copyNotice"> <p><strong>copy</strong><br> click new location</p></div>';
-var copySuccess = '<div class="copyNotice"> <h1>√</h1> <p>copied successfully</p> </div>';
+var copyNotice = '<div class="copyNotice"> <p><strong>copy</strong><br> click a new location<br><div class="cancel">cancel</div></p></div>';
+var copySuccess = '<div class="copyNotice"> <h1>√</h1> <p>copied here successfully</p></div>';
 
 
 function init() {
@@ -12,13 +12,17 @@ function init() {
 		revealControls();
 	});
 
+	$("body").on("click", ".cancel", function(){
+		$(".copyNotice").remove();
+		resetState();
+	});
+
 	$("body").on("click", "ul#flat li a", function(){
 		processSelections($(this));
 		showHierarchy();
 	});
 
 	$("#copyButton, #moveButton").click(function(el){
-		console.log('copy this!');
 		setCopyMode();
 	});
 
@@ -59,9 +63,6 @@ function setCopyMode() {
 
 		that.off("click");
 	});
-
-	// register click event for all elements to remove copy state
-
 }
 
 function removeSuccess() {

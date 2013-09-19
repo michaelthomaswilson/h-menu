@@ -57,9 +57,30 @@ $selected: #e5fbff;
 // Classes
 
 .button {
-	background: $gray;
+	background: $superlightgray;
 	border: 1px solid $lightgray;
 	font-weight: 300 !important;
+	color: $gray;
+
+	&:hover {
+		background: $selected;
+		color: $gray;
+	}
+}
+
+
+.cancel {
+	display: block;
+	border: 0;
+	border-radius: 5px;
+	background: #333;
+	color: white;
+	text-align: center;
+	width: 50%;
+	height: auto;
+	margin: 10px auto;
+	cursor: pointer;
+	font-size: 14px;
 }
 
 .copyNotice {
@@ -124,13 +145,12 @@ $selected: #e5fbff;
 
 			transition: height 400ms ease, background-color 400ms ease, opacity 400ms ease;
 
-
 			&:hover {
 				background-color: $superlightgray;
 			}
 
 			&.copyHover:hover {
-				background-color: $medgray;
+				background-color: $lightgray;
 			}
 
 			&.selected {
