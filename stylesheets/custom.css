@@ -127,3 +127,14 @@
 .data-display {
   overflow: hidden;
 }
+
+/* line 141, ../sass/custom.scss */
+.paginationArea {
+  margin-top: 30px;
+  text-align: center;
+}
+/* line 145, ../sass/custom.scss */
+.paginationArea ul {
+  margin: 0 auto;
+  width: 30%;
+}
