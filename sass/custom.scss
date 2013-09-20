@@ -20,6 +20,8 @@ $selected: #e5fbff;
 #columnWrapper {
 	background: -webkit-linear-gradient(left, $superlightgray 323px, white 10px);
 	background-size: 333px;
+	height: $height;
+	overflow: hidden;
 }
 
 #controls {
@@ -130,10 +132,10 @@ $selected: #e5fbff;
 .data-list {
 	height: $height;
 	overflow-y: scroll;
+	overflow-x: hidden;
 	padding: 0;
-	margin-right: 10px;
+	margin: 0 10px 0 0;
 	width: 323px; //32%;
-	margin-bottom: 0;
 
 	li {
 
