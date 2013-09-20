@@ -36,7 +36,17 @@ fieldset {border: 0}
 	overflow: hidden;
 }
 
-#flatWrapper {display: none;}
+#flat {
+	width: 666px;
+}
+
+#flatWrapper {
+	display: none;
+	background: -webkit-linear-gradient(left, $superlightgray 323px, #e5e5e5 10px);
+	background-size: 333px;
+	height: $height;
+	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
 
 #frame {
 	height: $height;
@@ -139,7 +149,7 @@ fieldset {border: 0}
 	overflow-x: hidden;
 	padding: 0;
 	margin: 0 10px 0 0;
-	width: 323px; //32%;
+	width: 323px;
 
 	li {
 
