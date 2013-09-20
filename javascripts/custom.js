@@ -146,7 +146,7 @@ function processSelections(el) {
 	if ($(el).hasClass('selected')) {
 		$(el).toggleClass('open');
 	} else {
-		clearAllSelections(el);
+		clearColumnSelections(el);
 		setAsSelected(el);
 	}
 	resetParent(el);
@@ -154,8 +154,9 @@ function processSelections(el) {
 	resetState();
 }
 
-function clearAllSelections(el) {
+function clearColumnSelections(el) {
 	var parent = '#' + getParent(el) + ' li a.selected';
+	console.log("clearing column: " + parent);
 	$(parent).removeClass('selected open');
 }
 

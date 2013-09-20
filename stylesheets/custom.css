@@ -214,8 +214,8 @@ fieldset {
 /* line 215, ../sass/custom.scss */
 .data-list li a p.info {
   font-size: 0.80em;
-  margin-top: 30px;
-  width: 90%;
+  margin-top: 20px;
+  width: 85%;
   color: #999999;
   white-space: normal;
 }
