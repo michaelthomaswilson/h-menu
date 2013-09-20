@@ -13,6 +13,8 @@ function init() {
 
 	$("body").on("click", ".cancel", function(){
 		$(".copyNotice").remove();
+		$("ul.multi li a.copyHover").off("click");
+		$("ul.multi li a").removeClass("copyHover");
 		resetState();
 	});
 
@@ -49,7 +51,9 @@ function setCopyMode() {
 	// add copy hover state to all elements
 
 	$("ul.multi li a").not(".copyState").addClass("copyHover");
-	$("ul.multi li a").not(".copyState").click(function(){
+
+
+	$("ul.multi li a.copyHover").not(".copyState").click(function(){
 		$(".copyNotice").remove();
 
 		var that = $(this);
