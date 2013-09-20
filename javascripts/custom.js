@@ -14,7 +14,7 @@ function init() {
 	$("body").on("click", ".cancel", function(){
 		$(".copyNotice").remove();
 		$("ul.multi li a.copyHover").off("click");
-		$("ul.multi li a").removeClass("copyHover");
+		$("ul.multi li a.copyHover").removeClass("copyHover");
 		resetState();
 	});
 
