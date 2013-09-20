@@ -7263,15 +7263,16 @@ fieldset {
 #hierarchy {
   padding: 10px;
   display: none;
+  float: left;
 }
-/* line 59, ../sass/custom.scss */
+/* line 60, ../sass/custom.scss */
 #hierarchy ul {
   margin: 10px;
   margin-left: 25px;
   list-style-type: none;
 }
 
-/* line 66, ../sass/custom.scss */
+/* line 67, ../sass/custom.scss */
 #holder {
   height: 600px;
   border: 1px solid lightgrey;
@@ -7280,25 +7281,25 @@ fieldset {
   overflow-y: hidden;
   white-space: nowrap;
 }
-/* line 74, ../sass/custom.scss */
+/* line 75, ../sass/custom.scss */
 #holder ul {
   display: inline-block !important;
 }
 
-/* line 81, ../sass/custom.scss */
+/* line 82, ../sass/custom.scss */
 .button {
   background: #f2f2f2;
   border: 1px solid lightgrey;
   font-weight: 300 !important;
   color: dimgrey;
 }
-/* line 87, ../sass/custom.scss */
+/* line 88, ../sass/custom.scss */
 .button:hover {
   background: #e5fbff;
   color: dimgrey;
 }
 
-/* line 93, ../sass/custom.scss */
+/* line 94, ../sass/custom.scss */
 .copyNotice {
   position: absolute;
   top: 50%;
@@ -7316,19 +7317,19 @@ fieldset {
   box-shadow: 0px 0px 1px #000;
   -webkit-animation: copy 400ms;
 }
-/* line 111, ../sass/custom.scss */
+/* line 112, ../sass/custom.scss */
 .copyNotice h1 {
   margin-bottom: 0;
   color: white;
 }
-/* line 116, ../sass/custom.scss */
+/* line 117, ../sass/custom.scss */
 .copyNotice p {
   color: white;
   font-size: 0.9em;
   font-weight: 300;
   padding: 5px;
 }
-/* line 123, ../sass/custom.scss */
+/* line 124, ../sass/custom.scss */
 .copyNotice .cancel {
   display: block;
   border: 0;
@@ -7344,23 +7345,23 @@ fieldset {
 }
 
 @-webkit-keyframes copy {
-  /* line 139, ../sass/custom.scss */
+  /* line 140, ../sass/custom.scss */
   from {
     opacity: 0;
   }
 
-  /* line 140, ../sass/custom.scss */
+  /* line 141, ../sass/custom.scss */
   to {
     opacity: 1;
   }
 }
 
-/* line 143, ../sass/custom.scss */
+/* line 144, ../sass/custom.scss */
 .contextual {
   display: none;
 }
 
-/* line 147, ../sass/custom.scss */
+/* line 148, ../sass/custom.scss */
 .data-list {
   height: 600px;
   overflow-y: scroll;
@@ -7369,11 +7370,11 @@ fieldset {
   margin: 0 10px 0 0;
   width: 323px;
 }
-/* line 155, ../sass/custom.scss */
+/* line 156, ../sass/custom.scss */
 .data-list li {
   position: relative;
 }
-/* line 159, ../sass/custom.scss */
+/* line 160, ../sass/custom.scss */
 .data-list li a {
   display: block;
   height: 55px;
@@ -7386,36 +7387,36 @@ fieldset {
   overflow: hidden;
   transition: height 400ms ease, background-color 400ms ease, opacity 400ms ease;
 }
-/* line 172, ../sass/custom.scss */
+/* line 173, ../sass/custom.scss */
 .data-list li a:hover {
   background-color: #f2f2f2;
 }
-/* line 176, ../sass/custom.scss */
+/* line 177, ../sass/custom.scss */
 .data-list li a.copyHover:hover {
   background-color: lightgrey;
 }
-/* line 180, ../sass/custom.scss */
+/* line 181, ../sass/custom.scss */
 .data-list li a.selected {
   background-color: #e5fbff;
 }
-/* line 184, ../sass/custom.scss */
+/* line 185, ../sass/custom.scss */
 .data-list li a.open {
   height: 350px;
 }
-/* line 188, ../sass/custom.scss */
+/* line 189, ../sass/custom.scss */
 .data-list li a.copyState {
   background-color: #e5fbff;
 }
-/* line 191, ../sass/custom.scss */
+/* line 192, ../sass/custom.scss */
 .data-list li a.copyState p {
   opacity: 0.5;
 }
-/* line 196, ../sass/custom.scss */
+/* line 197, ../sass/custom.scss */
 .data-list li a p {
   padding-left: 20px;
   padding-top: 3px;
 }
-/* line 200, ../sass/custom.scss */
+/* line 201, ../sass/custom.scss */
 .data-list li a p.title {
   display: block;
   width: 90%;
@@ -7424,13 +7425,13 @@ fieldset {
   line-height: 0.9em;
   margin-bottom: 0;
 }
-/* line 209, ../sass/custom.scss */
+/* line 210, ../sass/custom.scss */
 .data-list li a p.description {
   font-size: 0.8em;
   color: #999999;
   padding-top: 0;
 }
-/* line 215, ../sass/custom.scss */
+/* line 216, ../sass/custom.scss */
 .data-list li a p.info {
   font-size: 0.80em;
   margin-top: 20px;
@@ -7438,34 +7439,34 @@ fieldset {
   color: #999999;
   white-space: normal;
 }
-/* line 226, ../sass/custom.scss */
+/* line 227, ../sass/custom.scss */
 .data-list li.loadmore a {
   background-image: none;
   text-align: center;
 }
-/* line 230, ../sass/custom.scss */
+/* line 231, ../sass/custom.scss */
 .data-list li.loadmore a p {
   margin-top: 20px;
 }
 
-/* line 237, ../sass/custom.scss */
+/* line 238, ../sass/custom.scss */
 .data-display {
   overflow: hidden;
 }
 
-/* line 241, ../sass/custom.scss */
+/* line 242, ../sass/custom.scss */
 .paginationArea {
   display: none;
   margin-top: 30px;
   text-align: center;
 }
-/* line 246, ../sass/custom.scss */
+/* line 247, ../sass/custom.scss */
 .paginationArea ul {
   margin: 0 auto;
   width: 30%;
 }
 
-/* line 252, ../sass/custom.scss */
+/* line 253, ../sass/custom.scss */
 .row {
   height: auto !important;
 }
