@@ -131,7 +131,7 @@ function resetColumns(el) {
 
 
 	if (id < numberOfColumns()) {
-		id = id + 2;
+		id = id + 1;
 		for(var i=id; i < numberOfColumns(); i++) {
 			var element = 'ul#column' + i; 
 			console.log('removing element: ' + element);
