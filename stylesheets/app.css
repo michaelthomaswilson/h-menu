@@ -7222,7 +7222,6 @@ a.th {
   background: -webkit-linear-gradient(left, #f2f2f2 323px, white 10px);
   background-size: 333px;
   height: 600px;
-  overflow: hidden;
 }
 
 /* line 27, ../sass/custom.scss */
