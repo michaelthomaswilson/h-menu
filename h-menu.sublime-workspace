@@ -4,6 +4,34 @@
 		"selected_items":
 		[
 			[
+				"border",
+				"border-radius"
+			],
+			[
+				"white",
+				"white-space"
+			],
+			[
+				"remove",
+				"removeClass"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"lightg",
+				"lightgray"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"number",
+				"numberOfColumns"
+			],
+			[
 				"re",
 				"repeat-x"
 			],
@@ -26,10 +54,6 @@
 			[
 				"a",
 				"absolute"
-			],
-			[
-				"background",
-				"background-position"
 			],
 			[
 				"bl",
@@ -76,10 +100,6 @@
 				"scroller"
 			],
 			[
-				"margin",
-				"margin-bottom"
-			],
-			[
 				"cap",
 				"capsuleWidth"
 			],
@@ -103,13 +123,41 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 19796,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sass/custom.scss",
+			"settings":
+			{
+				"buffer_size": 3263,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "javascripts/custom.js",
+			"settings":
+			{
+				"buffer_size": 10649,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 347.0,
 		"selected_items":
 		[
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
 			[
 				"",
 				"Package Control: Install Package"
@@ -119,7 +167,10 @@
 	},
 	"console":
 	{
-		"height": 139.0
+		"height": 139.0,
+		"history":
+		[
+		]
 	},
 	"distraction_free":
 	{
@@ -132,9 +183,10 @@
 	},
 	"file_history":
 	[
+		"/private/var/folders/ws/p7l_7sld46sc4bvsmc1p2fj5l6ryd8/T/ebd5f331-4a67-4883-ad6b-ca6781205acf/httpdocs/index.shtml",
+		"/Users/mwilson/Repo/h-menu/javascripts/custom.js",
 		"/Users/mwilson/Repo/h-menu/sass/custom.scss",
 		"/Users/mwilson/Repo/h-menu/index.html",
-		"/Users/mwilson/Repo/h-menu/javascripts/custom.js",
 		"/Applications/MAMP/htdocs/manager/includes/config.inc.php",
 		"/Users/mwilson/Repo/h-menu/javascripts/jquery.scrollTo-1.4.3.1.js",
 		"/Users/mwilson/Repo/h-menu/sass/app.scss",
@@ -259,6 +311,10 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"superlightgray",
+			"scroll",
+			"scrollToTop",
+			"myModal",
 			"tileStack",
 			"tilestack",
 			"tileStack",
@@ -303,8 +359,93 @@
 	"groups":
 	[
 		{
+			"selected": 2,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 19796,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8845,
+								8858
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 3432.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "sass/custom.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3263,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								319,
+								319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 6.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "javascripts/custom.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10649,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6619,
+								6619
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 1.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -339,6 +480,7 @@
 		]
 	},
 	"menu_visible": true,
+	"project": "h-menu.sublime-project",
 	"replace":
 	{
 		"height": 64.0
@@ -464,10 +606,24 @@
 		],
 		"width": 693.0
 	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
-	"side_bar_width": 275.0,
-	"status_bar_visible": true
+	"side_bar_visible": false,
+	"side_bar_width": 234.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
 }
