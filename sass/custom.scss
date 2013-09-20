@@ -18,8 +18,8 @@ $selected: #e5fbff;
 // IDs
 
 #columnWrapper {
-	background: -webkit-linear-gradient(left, $superlightgray 319px, white 10px);
-	background-size: 329px;
+	background: -webkit-linear-gradient(left, $superlightgray 323px, white 10px);
+	background-size: 333px;
 }
 
 #controls {
@@ -50,7 +50,7 @@ $selected: #e5fbff;
 #holder {
 	height: $height;
 	border: 1px solid $lightgray;
-	width: 100%;
+	width: 1000px; //100%;
 	overflow-x:scroll;
 	overflow-y: hidden;
 	white-space: nowrap;
@@ -131,8 +131,8 @@ $selected: #e5fbff;
 	height: $height;
 	overflow-y: scroll;
 	padding: 0;
-	margin-right:1%;
-	width: 32%;
+	margin-right: 10px;
+	width: 323px; //32%;
 
 	li {
 
