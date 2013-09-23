@@ -54,7 +54,8 @@ function setCopyMode(act) {
 	$("ul.multi li a").not(".copyState").addClass("copyHover");
 
 
-	$("ul.multi li a.copyHover").not(".copyState").click(function(){
+	$("a.copyHover").not(".copyState").click(function(){
+		$('a.copyHover').off();
 		$(".copyNotice").remove();
 
 		var that = $(this);
@@ -64,8 +65,6 @@ function setCopyMode(act) {
 		},400);
 
 		setTimeout(removeSuccess, 2000);
-
-		that.off("click");
 	});
 }
 
@@ -73,6 +72,8 @@ function removeSuccess() {
 	$(".copyNotice").fadeOut("fast", function(){
 		$(this).remove();
 	});
+	// remove copyHover class to fix this.
+	$("ul.multi li a.copyHover").removeClass("copyHover");
 }
 
 function toggleModes() {
