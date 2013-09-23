@@ -127,7 +127,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 19796,
+				"buffer_size": 28395,
 				"line_ending": "Unix"
 			}
 		},
@@ -135,7 +135,7 @@
 			"file": "sass/custom.scss",
 			"settings":
 			{
-				"buffer_size": 3263,
+				"buffer_size": 3802,
 				"line_ending": "Unix"
 			}
 		},
@@ -143,7 +143,7 @@
 			"file": "javascripts/custom.js",
 			"settings":
 			{
-				"buffer_size": 10649,
+				"buffer_size": 15141,
 				"line_ending": "Unix"
 			}
 		}
@@ -183,6 +183,7 @@
 	},
 	"file_history":
 	[
+		"/Users/mwilson/Repo/h-menu/h-menu.sublime-project",
 		"/private/var/folders/ws/p7l_7sld46sc4bvsmc1p2fj5l6ryd8/T/ebd5f331-4a67-4883-ad6b-ca6781205acf/httpdocs/index.shtml",
 		"/Users/mwilson/Repo/h-menu/javascripts/custom.js",
 		"/Users/mwilson/Repo/h-menu/sass/custom.scss",
@@ -311,6 +312,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"copyNotice",
+			";}\n",
 			"superlightgray",
 			"scroll",
 			"scrollToTop",
@@ -359,7 +362,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -368,15 +371,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 19796,
+						"buffer_size": 28395,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8845,
-								8858
+								0,
+								0
 							]
 						],
 						"settings":
@@ -385,7 +388,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3432.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -396,15 +399,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3263,
+						"buffer_size": 3802,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								319,
-								319
+								473,
+								473
 							]
 						],
 						"settings":
@@ -413,7 +416,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6.0,
+						"translation.y": 235.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -424,15 +427,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10649,
+						"buffer_size": 15141,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6619,
-								6619
+								0,
+								0
 							]
 						],
 						"settings":
@@ -440,7 +443,7 @@
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 1.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
