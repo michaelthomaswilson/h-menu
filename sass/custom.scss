@@ -57,13 +57,31 @@ fieldset {border: 0}
 	display: none;
 	float: left;
 	overflow: hidden;
-	background: pink;
+	margin-top: 50px;
 
 	ul {
 		margin: 0;
 		padding: 0;
 		list-style-type: none;
-		background: $lightgray;
+		//background: $lightgray;
+		width: 100%;
+
+		li {
+			padding: 5px 0 5px 10px;
+			width: 100%;
+			//border-bottom: 1px solid white;
+
+			&.child {
+				background: url(../images/child.svg) no-repeat left 0px;
+				background-size: 20px;
+				padding-left: 25px;
+				margin-left: 5px;
+			}
+
+			ul {
+				margin-left: 15px;
+			}
+		}
 	}
 }
 
