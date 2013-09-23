@@ -106,8 +106,6 @@ function processColumns(el) {
 	}
 
 	// should i add another column?
-	//console.log('# of columns: ' + numberOfColumns());
-
 	if (numberOfColumns() < maxDepth && numberOfColumns() <= (id+1)) {
 		addColumn(el);
 	}
@@ -117,7 +115,7 @@ function addColumn(el) {
 	var el = '#' + getParent(el);
 	var id = Number(getColumnNumber(el)) + 1;
 
-	console.log('addColumn, id: ' + id);
+	//console.log('addColumn, id: ' + id);
 
 	var columnWrapper = '<ul id="column' + id + '" class="large-4 data-list multi">';
 	var newColumn = "#column" + id;
@@ -133,8 +131,8 @@ function addColumn(el) {
 
 function resetColumns(el) {
 	var id = Number(getColumnNumber(el));
-	console.log('id clicked: ' + id);
-	console.log('# of columns: ' + numberOfColumns());
+	//console.log('id clicked: ' + id);
+	//console.log('# of columns: ' + numberOfColumns());
 
 
 	if (id < numberOfColumns()) {
@@ -169,14 +167,11 @@ function clearColumnSelections(el) {
 
 function resetChildren(el) {
 	var id = getColumnNumber(el);
-	//console.log('id clicked: ' + id);
-
 
 	if (id < numberOfColumns()) {
 		id++;
 		for(var i=id; i < numberOfColumns(); i++) {
 			var element = '#column' + i + ' li a.selected'; 
-			//console.log('reset element: ' + element);
 			$(element).removeClass('open selected');
 		}
 	}
