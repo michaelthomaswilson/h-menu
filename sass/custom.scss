@@ -118,6 +118,15 @@ h3 {
 		background: $selected;
 		color: $gray;
 	}
+
+	&.disabled {
+		background-color: $lightgray;
+		border: 1px solid $lightgray;
+
+		&:hover {
+			background-color: $lightgray;
+		}
+	}
 }
 
 .copyNotice {
@@ -171,7 +180,7 @@ h3 {
 }
 
 .contextual {
-	display: none;
+	//display: none;
 }
 
 .data-list {
