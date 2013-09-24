@@ -86,7 +86,8 @@ function toggleModes() {
 }
 
 function revealControls() {
-	$(".contextual").fadeIn(300);
+	//$(".contextual").fadeIn(300);
+	$('.contextual a.button').removeClass('disabled');
 }
 
 function hideControls() {
