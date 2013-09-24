@@ -170,6 +170,7 @@ function processSelections(el) {
 	if ($(el).hasClass('selected')) {
 		$(el).toggleClass('open');
 	} else {
+		console.log('no content');
 		clearColumnSelections(el);
 		setAsSelected(el);
 	}
@@ -212,7 +213,10 @@ function resetState() {
 }
 
 function setAsSelected(el) {
-	$(el).addClass('selected open');
+	$(el).addClass('selected');
+	if ($(el).children('p.info').text().length > 0) {
+		$(el).addClass('open');
+	}
 }
 
 // Helpers
