@@ -13,13 +13,17 @@
 
 </head>
 <body>
+	
 	<form>
+	<div class="row">
+		<h1>Manage Locations</h1>
+	</div>
 		<fieldset>
 			<div class="row">
 				<div class="large-6">
 					<div class="row collapse">
 						<div class="small-10 columns">
-							<input type="text" placeholder="Type some stuff already...">
+							<input type="text" placeholder="Search for a specific location.">
 						</div>
 						<div class="small-2 columns">
 							<a id="search" class="button prefix">Search</a>
@@ -46,6 +50,70 @@
 			</div>
 			<div id="frame" class="row">
 				<div id="holder">
+					<!-- FLAT SEARCH -->
+					<div id="flatWrapper">
+						<ul id="flat" class="data-list columns">
+							<li> 
+								<a> 
+									<p class="title">Main Warehouse</p> 
+									<p class="description">The main warehouse in Denver</p> 
+									<p class="info"> 99 Broadway Street<br> Denver, CO  80220<br> 303.333.3333 </p> 
+								</a> 
+							</li> 
+							<li> 
+								<a> 
+									<p class="title">Sales Center</p> 
+									<p class="description">Our main sales office for the Colorado Region.</p> 
+									<p class="info"> 99 Broadway Street<br> Denver, CO  80220<br> 303.333.3333 </p> 
+								</a> 
+							</li> 
+							<li> 
+								<a> 
+									<p class="title">Admninistrative Office</p> 
+									<p class="description">The administrative offices for the corporate headquarters.</p> 
+									<p class="info"> 99 Broadway Street<br> Denver, CO  80220<br> 303.333.3333 </p> 
+								</a> 
+							</li> 
+							<li> 
+								<a> 
+									<p class="title">Manufacturing</p> 
+									<p class="description">Our main factory for this region</p> 
+									<p class="info"> 99 Broadway Street<br> Denver, CO  80220<br> 303.333.3333 </p> 
+								</a>
+							</li>
+						</ul>
+
+						<div id="hierarchy">
+							<ul>
+		  						<li>
+		  							<a>North America</a>
+		  						</li>
+		  						<li>
+		  							<ul>
+		  								<li class="child">
+		  									<a>United States of America</a>
+		  								</li>
+		  								<li>
+		  									<ul>
+				  								<li class="child">
+				  									<a>Colorado</a>
+				  								</li>
+				  								<li>
+				  									<ul>
+					  									<li class="child">
+					  										<a id="restore">Main Warehouse</a>
+					  									</li>
+				  									</ul>
+				  								</li>
+				  							</ul>
+		  								</li>
+		  							</ul>
+		  						</li>
+	  						</ul>
+	  					</div>
+  					</div>
+
+
   					<!-- MULTI-COLUMN -->
   					<div id="columnWrapper">
 						<ul id="column0" class="large-4 data-list multi">			
@@ -99,7 +167,7 @@
 								</a>
 							</li>
 						</ul>
-						
+
 						
 						
 						
