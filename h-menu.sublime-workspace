@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"column",
+				"columnWrapper"
+			],
+			[
 				"border",
 				"border-radius"
 			],
@@ -58,10 +62,6 @@
 			[
 				"bl",
 				"inline-block"
-			],
-			[
-				"column",
-				"column_one"
 			],
 			[
 				"padding",
@@ -124,10 +124,18 @@
 	"buffers":
 	[
 		{
-			"file": "index.html",
+			"file": "locations.html",
 			"settings":
 			{
-				"buffer_size": 28395,
+				"buffer_size": 22372,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "humans.txt",
+			"settings":
+			{
+				"buffer_size": 237,
 				"line_ending": "Unix"
 			}
 		},
@@ -135,7 +143,7 @@
 			"file": "sass/custom.scss",
 			"settings":
 			{
-				"buffer_size": 3802,
+				"buffer_size": 4102,
 				"line_ending": "Unix"
 			}
 		},
@@ -143,7 +151,7 @@
 			"file": "javascripts/custom.js",
 			"settings":
 			{
-				"buffer_size": 15141,
+				"buffer_size": 15342,
 				"line_ending": "Unix"
 			}
 		}
@@ -183,6 +191,7 @@
 	},
 	"file_history":
 	[
+		"/Users/mwilson/Repo/h-menu/javascripts/regions.js",
 		"/Users/mwilson/Repo/h-menu/h-menu.sublime-project",
 		"/private/var/folders/ws/p7l_7sld46sc4bvsmc1p2fj5l6ryd8/T/ebd5f331-4a67-4883-ad6b-ca6781205acf/httpdocs/index.shtml",
 		"/Users/mwilson/Repo/h-menu/javascripts/custom.js",
@@ -367,19 +376,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "index.html",
+					"file": "locations.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 28395,
+						"buffer_size": 22372,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								17590,
+								17590
 							]
 						],
 						"settings":
@@ -388,46 +397,18 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 8395.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "sass/custom.scss",
-					"semi_transient": false,
+					"file": "humans.txt",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 3802,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								473,
-								473
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 235.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "javascripts/custom.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 15141,
+						"buffer_size": 237,
 						"regions":
 						{
 						},
@@ -440,11 +421,66 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "sass/custom.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1083,
+								1083
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Sass/Syntaxes/Sass.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "javascripts/custom.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 15342,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								13008,
+								13008
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1435.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -623,7 +659,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 234.0,
 	"status_bar_visible": true,
 	"template_settings":

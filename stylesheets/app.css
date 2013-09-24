@@ -7434,8 +7434,9 @@ fieldset {
 .data-list li a p {
   padding-left: 20px;
   padding-top: 3px;
+  white-space: normal;
 }
-/* line 222, ../sass/custom.scss */
+/* line 223, ../sass/custom.scss */
 .data-list li a p.title {
   display: block;
   width: 90%;
@@ -7444,13 +7445,13 @@ fieldset {
   line-height: 0.9em;
   margin-bottom: 0;
 }
-/* line 231, ../sass/custom.scss */
+/* line 232, ../sass/custom.scss */
 .data-list li a p.description {
   font-size: 0.8em;
   color: #999999;
   padding-top: 0;
 }
-/* line 237, ../sass/custom.scss */
+/* line 238, ../sass/custom.scss */
 .data-list li a p.info {
   font-size: 0.80em;
   margin-top: 20px;
@@ -7458,34 +7459,34 @@ fieldset {
   color: #999999;
   white-space: normal;
 }
-/* line 248, ../sass/custom.scss */
+/* line 249, ../sass/custom.scss */
 .data-list li.loadmore a {
   background-image: none;
   text-align: center;
 }
-/* line 252, ../sass/custom.scss */
+/* line 253, ../sass/custom.scss */
 .data-list li.loadmore a p {
   margin-top: 20px;
 }
 
-/* line 259, ../sass/custom.scss */
+/* line 260, ../sass/custom.scss */
 .data-display {
   overflow: hidden;
 }
 
-/* line 263, ../sass/custom.scss */
+/* line 264, ../sass/custom.scss */
 .paginationArea {
   display: none;
   margin-top: 30px;
   text-align: center;
 }
-/* line 268, ../sass/custom.scss */
+/* line 269, ../sass/custom.scss */
 .paginationArea ul {
   margin: 0 auto;
   width: 30%;
 }
 
-/* line 274, ../sass/custom.scss */
+/* line 275, ../sass/custom.scss */
 .row {
   height: auto !important;
 }
