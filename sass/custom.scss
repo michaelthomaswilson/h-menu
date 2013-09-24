@@ -1,6 +1,6 @@
 // Variables
 
-$height: 600px;
+$height: 500px;
 $colwidth: 30%;
 
 $closeSize: 55px;
@@ -16,9 +16,13 @@ $darkred: #700000;
 $selected: #e5fbff;
 
 
-fieldset {border: 0}
+fieldset {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
 
-h1 {
+h3 {
 	margin-bottom: 0;
 }
 
