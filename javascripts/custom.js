@@ -30,7 +30,7 @@ function init() {
 	});
 
 	$("#search").click(function(){
-		//toggleModes();
+		toggleModes();
 		//hideControls();
 	});
 
