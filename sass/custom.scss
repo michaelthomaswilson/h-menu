@@ -43,6 +43,35 @@ h3 {
 	background: white;
 	margin-bottom: 10px;
 	overflow: hidden;
+
+	ul {
+		&.show {
+			display: block;
+			float: right;
+			margin-right: 0;
+			height: 100%;
+
+			li a {
+				display: block;
+				height: 45px;
+
+				&#showAsHierarchy {
+					background: #f2f2f2 url(../images/hierarchy.svg) no-repeat center;
+
+					&.disabled {
+						background-color: $selected;
+					}
+				}
+				&#showAsFlat {
+					background: #f2f2f2 url(../images/flat.svg) no-repeat center;
+
+					&.disabled {
+						background-color: $selected;
+					}
+				}
+			}
+		}
+	}
 }
 
 #flat {

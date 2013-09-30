@@ -30,7 +30,7 @@ function init() {
 	});
 
 	$("#search").click(function(){
-		toggleModes();
+		//toggleModes();
 		//hideControls();
 	});
 
@@ -40,6 +40,10 @@ function init() {
 
 	$('.closeModal').click(function(){
 		$('#deactivateModal').foundation('reveal', 'close');
+	});
+
+	$('ul.show a').click(function(){
+		toggleModes();
 	});
 }
 
@@ -84,6 +88,8 @@ function toggleModes() {
 	$('#flatWrapper').toggle();
 	$('#columnWrapper').toggle();
 	$('.paginationArea').toggle();
+	$('#showAsHierarchy').toggleClass('disabled');
+	$('#showAsFlat').toggleClass('disabled');
 }
 
 function revealControls() {
