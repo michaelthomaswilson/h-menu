@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-bottom"
+			],
+			[
 				"column",
 				"columnWrapper"
 			],
@@ -26,10 +30,6 @@
 			[
 				"lightg",
 				"lightgray"
-			],
-			[
-				"margin",
-				"margin-top"
 			],
 			[
 				"number",
@@ -124,18 +124,18 @@
 	"buffers":
 	[
 		{
-			"file": "locations.html",
+			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 22372,
+				"buffer_size": 28422,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "humans.txt",
+			"file": "locations.html",
 			"settings":
 			{
-				"buffer_size": 237,
+				"buffer_size": 8523,
 				"line_ending": "Unix"
 			}
 		},
@@ -143,7 +143,7 @@
 			"file": "sass/custom.scss",
 			"settings":
 			{
-				"buffer_size": 4102,
+				"buffer_size": 4326,
 				"line_ending": "Unix"
 			}
 		},
@@ -151,7 +151,7 @@
 			"file": "javascripts/custom.js",
 			"settings":
 			{
-				"buffer_size": 15342,
+				"buffer_size": 20372,
 				"line_ending": "Unix"
 			}
 		}
@@ -191,6 +191,7 @@
 	},
 	"file_history":
 	[
+		"/Users/mwilson/Repo/h-menu/index-old.html",
 		"/Users/mwilson/Repo/h-menu/javascripts/regions.js",
 		"/Users/mwilson/Repo/h-menu/h-menu.sublime-project",
 		"/private/var/folders/ws/p7l_7sld46sc4bvsmc1p2fj5l6ryd8/T/ebd5f331-4a67-4883-ad6b-ca6781205acf/httpdocs/index.shtml",
@@ -201,7 +202,6 @@
 		"/Users/mwilson/Repo/h-menu/javascripts/jquery.scrollTo-1.4.3.1.js",
 		"/Users/mwilson/Repo/h-menu/sass/app.scss",
 		"/Users/mwilson/Repo/h-menu/sass/custon.scss",
-		"/Users/mwilson/Repo/h-menu/index-old.html",
 		"/Users/mwilson/Desktop/ht.access",
 		"/Users/mwilson/Desktop/DynamicsDB_7-14-2013.sql",
 		"/Users/mwilson/Repo/mysecondapp/app/controllers/users_controller.rb",
@@ -371,24 +371,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "locations.html",
+					"file": "index.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 22372,
+						"buffer_size": 28422,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								17590,
-								17590
+								12337,
+								12337
 							]
 						],
 						"settings":
@@ -397,34 +397,35 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 8395.0,
+						"translation.y": 4085.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "humans.txt",
-					"semi_transient": true,
+					"file": "locations.html",
+					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 237,
+						"buffer_size": 8523,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1567,
+								1567
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 115.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -435,15 +436,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4102,
+						"buffer_size": 4326,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1083,
-								1083
+								3878,
+								3880
 							]
 						],
 						"settings":
@@ -463,15 +464,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 15342,
+						"buffer_size": 20372,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								13008,
-								13008
+								16980,
+								16980
 							]
 						],
 						"settings":
@@ -480,7 +481,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1435.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -659,7 +660,7 @@
 	"show_minimap": true,
 	"show_open_files": true,
 	"show_tabs": true,
-	"side_bar_visible": true,
+	"side_bar_visible": false,
 	"side_bar_width": 234.0,
 	"status_bar_visible": true,
 	"template_settings":
