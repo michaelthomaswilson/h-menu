@@ -22,6 +22,7 @@ function init() {
 	$("body").on("click", "ul#flat li a", function(){
 		processSelections($(this));
 		showHierarchy();
+		revealControls();
 	});
 
 	$("#copyButton, #moveButton").click(function(el){
@@ -30,7 +31,7 @@ function init() {
 
 	$("#search").click(function(){
 		toggleModes();
-		hideControls();
+		//hideControls();
 	});
 
 	$('#restore').click(function(){
