@@ -36,6 +36,14 @@ function init() {
 	$('.closeModal').click(function(){
 		$('#deactivateModal').foundation('reveal', 'close');
 	});
+
+	$('.data-list input[type="checkbox"]').click(function(){
+		if ($(this).is(':checked')) {
+			$(this).siblings('a').addClass('selected');
+		} else {
+			$(this).siblings('a').removeClass('selected');
+		}
+	});
 }
 
 function setCopyMode(act) {
