@@ -7316,29 +7316,34 @@ h3 {
   display: inline-block !important;
 }
 
-/* line 112, ../sass/custom.scss */
+/* line 110, ../sass/custom.scss */
+a#restore {
+  color: red !important;
+}
+
+/* line 116, ../sass/custom.scss */
 .button {
   background: #f2f2f2;
   border: 1px solid lightgrey;
   font-weight: 300 !important;
   color: dimgrey;
 }
-/* line 118, ../sass/custom.scss */
+/* line 122, ../sass/custom.scss */
 .button:hover {
   background: #e5fbff;
   color: dimgrey;
 }
-/* line 123, ../sass/custom.scss */
+/* line 127, ../sass/custom.scss */
 .button.disabled {
   background-color: lightgrey;
   border: 1px solid lightgrey;
 }
-/* line 127, ../sass/custom.scss */
+/* line 131, ../sass/custom.scss */
 .button.disabled:hover {
   background-color: lightgrey;
 }
 
-/* line 133, ../sass/custom.scss */
+/* line 137, ../sass/custom.scss */
 .copyNotice {
   position: absolute;
   top: 50%;
@@ -7356,19 +7361,19 @@ h3 {
   box-shadow: 0px 0px 1px #000;
   -webkit-animation: copy 400ms;
 }
-/* line 151, ../sass/custom.scss */
+/* line 155, ../sass/custom.scss */
 .copyNotice h1 {
   margin-bottom: 0;
   color: white;
 }
-/* line 156, ../sass/custom.scss */
+/* line 160, ../sass/custom.scss */
 .copyNotice p {
   color: white;
   font-size: 0.9em;
   font-weight: 300;
   padding: 5px;
 }
-/* line 163, ../sass/custom.scss */
+/* line 167, ../sass/custom.scss */
 .copyNotice .cancel {
   display: block;
   border: 0;
@@ -7384,18 +7389,18 @@ h3 {
 }
 
 @-webkit-keyframes copy {
-  /* line 179, ../sass/custom.scss */
+  /* line 183, ../sass/custom.scss */
   from {
     opacity: 0;
   }
 
-  /* line 180, ../sass/custom.scss */
+  /* line 184, ../sass/custom.scss */
   to {
     opacity: 1;
   }
 }
 
-/* line 187, ../sass/custom.scss */
+/* line 191, ../sass/custom.scss */
 .data-list {
   height: 500px;
   overflow-y: scroll;
@@ -7404,11 +7409,11 @@ h3 {
   margin: 0 10px 0 0;
   width: 323px;
 }
-/* line 195, ../sass/custom.scss */
+/* line 199, ../sass/custom.scss */
 .data-list li {
   position: relative;
 }
-/* line 199, ../sass/custom.scss */
+/* line 203, ../sass/custom.scss */
 .data-list li a {
   display: block;
   height: 55px;
@@ -7421,37 +7426,37 @@ h3 {
   overflow: hidden;
   transition: height 400ms ease, background-color 400ms ease, opacity 400ms ease;
 }
-/* line 212, ../sass/custom.scss */
+/* line 216, ../sass/custom.scss */
 .data-list li a:hover {
   background-color: #f2f2f2;
 }
-/* line 216, ../sass/custom.scss */
+/* line 220, ../sass/custom.scss */
 .data-list li a.copyHover:hover {
   background-color: lightgrey;
 }
-/* line 220, ../sass/custom.scss */
+/* line 224, ../sass/custom.scss */
 .data-list li a.selected {
   background-color: #e5fbff;
 }
-/* line 224, ../sass/custom.scss */
+/* line 228, ../sass/custom.scss */
 .data-list li a.open {
   height: 200px;
 }
-/* line 228, ../sass/custom.scss */
+/* line 232, ../sass/custom.scss */
 .data-list li a.copyState {
   background-color: #e5fbff;
 }
-/* line 231, ../sass/custom.scss */
+/* line 235, ../sass/custom.scss */
 .data-list li a.copyState p {
   opacity: 0.5;
 }
-/* line 236, ../sass/custom.scss */
+/* line 240, ../sass/custom.scss */
 .data-list li a p {
   padding-left: 20px;
   padding-top: 3px;
   white-space: normal;
 }
-/* line 241, ../sass/custom.scss */
+/* line 245, ../sass/custom.scss */
 .data-list li a p.title {
   display: block;
   width: 90%;
@@ -7460,13 +7465,13 @@ h3 {
   line-height: 0.9em;
   margin-bottom: 0;
 }
-/* line 250, ../sass/custom.scss */
+/* line 254, ../sass/custom.scss */
 .data-list li a p.description {
   font-size: 0.8em;
   color: #999999;
   padding-top: 0;
 }
-/* line 256, ../sass/custom.scss */
+/* line 260, ../sass/custom.scss */
 .data-list li a p.info {
   font-size: 0.80em;
   margin-top: 20px;
@@ -7474,34 +7479,34 @@ h3 {
   color: #999999;
   white-space: normal;
 }
-/* line 267, ../sass/custom.scss */
+/* line 271, ../sass/custom.scss */
 .data-list li.loadmore a {
   background-image: none;
   text-align: center;
 }
-/* line 271, ../sass/custom.scss */
+/* line 275, ../sass/custom.scss */
 .data-list li.loadmore a p {
   margin-top: 20px;
 }
 
-/* line 278, ../sass/custom.scss */
+/* line 282, ../sass/custom.scss */
 .data-display {
   overflow: hidden;
 }
 
-/* line 282, ../sass/custom.scss */
+/* line 286, ../sass/custom.scss */
 .paginationArea {
   display: none;
   margin-top: 30px;
   text-align: center;
 }
-/* line 287, ../sass/custom.scss */
+/* line 291, ../sass/custom.scss */
 .paginationArea ul {
   margin: 0 auto;
   width: 30%;
 }
 
-/* line 293, ../sass/custom.scss */
+/* line 297, ../sass/custom.scss */
 .row {
   height: auto !important;
 }
