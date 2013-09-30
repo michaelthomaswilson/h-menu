@@ -229,6 +229,13 @@ a#restore {
 
 		position: relative;
 
+			input[type='checkbox'] {
+				position: absolute;
+				top: 20px;
+				left: 15px;
+
+			}
+
 		a {
 			display: block;
 			height: $closeSize;
@@ -267,7 +274,7 @@ a#restore {
 			}
 
 			p {
-				padding-left: 20px;
+				padding-left: 45px;
 				padding-top: 3px;
 				white-space: normal;
 
