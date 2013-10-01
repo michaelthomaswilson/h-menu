@@ -40,15 +40,15 @@ function init() {
 	$("body").on("click", '.data-list input[type="checkbox"]', function(){
 		$(this).siblings('a').toggleClass('checked');
 		if ($(this).is(':checked')) {
-			updateCheckedCount();
+			var count = checkedCount();
+			updateStatus(count, 'selected');
 		}
 	});
 }
 
-function updateCheckedCount() {
-    var $b = $('input[type=checkbox]');
-    var count = $b.filter(':checked').length;
-    $('#status').text(count + ' selected');
+function updateStatus(count, message) {
+	var update = count + ' ' + message;
+	$('#status').text(update);
 }
 
 function setCopyMode(act) {
@@ -109,7 +109,9 @@ function showHierarchy() {
 	$('#hierarchy').fadeIn(300);
 }
 
+//////////////////////////////////////////////////////
 // Columns
+//////////////////////////////////////////////////////
 
 function processColumns(el) {
 	var id = Number(getColumnNumber(el));
@@ -176,7 +178,15 @@ function resetColumns(el) {
 	}
 }
 
+//////////////////////////////////////////////////////
 // Elements
+//////////////////////////////////////////////////////
+
+function clearColumnSelections(el) {
+	var parent = '#' + getParent(el) + ' li a.selected';
+	console.log("clearing column: " + parent);
+	$(parent).removeClass('selected open');
+}
 
 function processSelections(el) {
 	if ($(el).hasClass('selected')) {
@@ -189,12 +199,6 @@ function processSelections(el) {
 	resetParent(el);
 	resetChildren(el);
 	resetState();
-}
-
-function clearColumnSelections(el) {
-	var parent = '#' + getParent(el) + ' li a.selected';
-	console.log("clearing column: " + parent);
-	$(parent).removeClass('selected open');
 }
 
 function resetChildren(el) {
@@ -231,7 +235,15 @@ function setAsSelected(el) {
 	}
 }
 
+//////////////////////////////////////////////////////
 // Helpers
+//////////////////////////////////////////////////////
+
+function checkedCount() {
+    var $b = $('input[type=checkbox]');
+    var count = $b.filter(':checked').length;
+    return count;
+}
 
 function getColumnNumber(el) {
 	var parent = getParent(el);
