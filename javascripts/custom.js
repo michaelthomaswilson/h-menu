@@ -37,21 +37,18 @@ function init() {
 		$('#deactivateModal').foundation('reveal', 'close');
 	});
 
-	/*
-
-	$('.data-list input[type="checkbox"]').click(function(){
-		if ($(this).is(':checked')) {
-			$(this).siblings('a').addClass('selected');
-		} else {
-			$(this).siblings('a').removeClass('selected');
-		}
-	});
-
-	*/
-
 	$("body").on("click", '.data-list input[type="checkbox"]', function(){
 		$(this).siblings('a').toggleClass('checked');
+		if ($(this).is(':checked')) {
+			updateCheckedCount();
+		}
 	});
+}
+
+function updateCheckedCount() {
+    var $b = $('input[type=checkbox]');
+    var count = $b.filter(':checked').length;
+    $('#status').text(count + ' selected');
 }
 
 function setCopyMode(act) {
