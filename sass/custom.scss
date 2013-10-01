@@ -14,6 +14,7 @@ $darkgray: #333;
 $darkred: #700000;
 
 $selected: #e5fbff;
+$checked: #e5ffe9;
 
 
 fieldset {
@@ -231,7 +232,7 @@ a#restore {
 
 			input[type='checkbox'] {
 				position: absolute;
-				top: 20px;
+				top: 15px;
 				left: 15px;
 
 			}
@@ -251,6 +252,10 @@ a#restore {
 
 			&:hover {
 				background-color: $superlightgray;
+			}
+
+			&.checked {
+				background-color: $checked;
 			}
 
 			&.copyHover:hover {
