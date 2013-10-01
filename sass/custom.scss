@@ -3,7 +3,7 @@
 $height: 500px;
 $colwidth: 30%;
 
-$closeSize: 55px;
+$closeSize: 45px;
 $openSize: 200px; //350px;
 
 $gray: DimGray;
@@ -275,22 +275,18 @@ a#restore {
 
 			p {
 				padding-left: 45px;
-				padding-top: 3px;
 				white-space: normal;
 
 				&.title {
 					display: block;
 					width: 90%;
-					height: auto;
 					font-size: 1.0em;
-					line-height: 0.9em;
 					margin-bottom: 0;
 				}
 
 				&.description {
-					font-size: 0.8em;
+					font-size: 0.7em;
 					color:  $medgray;
-					padding-top: 0;
 				}
 
 				&.info {
